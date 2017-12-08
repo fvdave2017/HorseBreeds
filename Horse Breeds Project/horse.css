@@ -1,0 +1,78 @@
+h2{
+    text-align: center;
+    font-family: "Times New Roman",Verdana, Palatino;
+    font-weight: bold;
+}
+
+img{
+    max-width: 45%;
+    height: auto;
+}
+/*
+.backgroundBody{
+    
+      width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+*/
+body{
+     background-image: url(Horses/naturalBackground.jpeg);
+   background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+.oneToolbar{
+  text-align: center;
+  display: inline-block;
+  Margin-left: 25px;
+  margin-top: 5px;
+   margin-bottom: 2px;
+}
+
+.twoToolbar{
+  text-align: center;
+  display: inline-block;
+  Margin-left: 283px;
+   margin-top: 5px;
+   margin-bottom: 2px;
+}
+
+.respond{
+     background-color: grey;
+    display: inline-block;
+    text-align: center;
+    
+}
+.horseList, .horseType{
+    background-color: grey;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   text-align: left;
+   font-size: 16px;
+  font-weight: bold;
+}
+
+.horsePage{
+  text-align: left;
+}
+
+.horseList1{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    }
+
+.horseList2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
