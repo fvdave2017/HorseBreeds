@@ -76,3 +76,60 @@ body{
     padding-top: 2px;
     padding-bottom: 2px;
 }
+
+@font-face {
+    font-family: 'opendyslexicaltabold';
+    src: url('Fonts/opendyslexicalta-bold-webfont.woff2') format('woff2'),
+         url('Fonts/opendyslexicalta-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opendyslexicaltabold_italic';
+    src: url('Fonts/opendyslexicalta-bolditalic-webfont.woff2') format('woff2'),
+         url('Fonts/opendyslexicalta-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opendyslexicaltaitalic';
+    src: url('Fonts/opendyslexicalta-italic-webfont.woff2') format('woff2'),
+         url('Fonts/opendyslexicalta-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opendyslexicaltaregular';
+    src: url('Fonts/opendyslexicalta-regular-webfont.woff2') format('woff2'),
+         url('Fonts/opendyslexicalta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opendyslexicmonoregular';
+    src: url('Fonts/opendyslexicmono-regular-webfont.woff2') format('woff2'),
+         url('Fonts/opendyslexicmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
