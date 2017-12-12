@@ -1,7 +1,11 @@
-h2{
+.h1, h2{
     text-align: center;
-    font-family: "Times New Roman",Verdana, Palatino;
-    font-weight: bold;
+    font-family: opendyslexicaltabold;
+    
+}
+
+h3{
+    font-family: opendyslexicaltabold;
 }
 
 img{
@@ -40,20 +44,21 @@ body{
 }
 
 .respond{
-     background-color: grey;
+     background-color: lightgray;
     display: inline-block;
     text-align: center;
     
 }
 .horseList, .horseType{
-    background-color: grey;
+    background-color: lightgray;
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 8px;
     padding-top: 2px;
     padding-bottom: 2px;
+    font-family: opendyslexicaltaregular;
    text-align: left;
-   font-size: 16px;
+   font-size: 20px;
   font-weight: bold;
 }
 
