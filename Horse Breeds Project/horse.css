@@ -82,6 +82,10 @@ body{
     padding-bottom: 2px;
 }
 
+aImage{
+    display:block;
+}
+
 @font-face {
     font-family: 'opendyslexicaltabold';
     src: url('Fonts/opendyslexicalta-bold-webfont.woff2') format('woff2'),

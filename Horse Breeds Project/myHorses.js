@@ -1,12 +1,13 @@
 $(document).ready(function(){ 
   
-  $(function(){
  
+  $(function(){
+      
     // aHorses());
     //cHorses());
     
 $("#aHorse").on('click', function aHorses(){
-  var horse = ["<a href='shetland.html' target='_blank'>American Shetland</a>", "<a href='Appaloosa.html' target='_blank'>Appaloosa</a>", "<a href='Azteca.html' target='_blank'>Azteca</a>"];
+  var horse = ["<a href='Shetland.html' target='_blank'>American Shetland</a>", "<a href='Appaloosa.html' target='_blank'>Appaloosa</a>", "<a href='Azteca.html' target='_blank'>Azteca</a>"];
   const horseLink = ["#American", "https://www.ctv.ca/Home", "https://www.economist.com"];
   
    var horseList = "<ul class='nav nav-pills nav-stacked list-unstyled'>";
@@ -149,5 +150,19 @@ $("#rType").on('click', function rTypes(){
    horseType += "</ul>";
 document.getElementById("listTypes").innerHTML = horseType;
 });
+      
+$("#American").on('click', function aShetland(){
+    var aShet = 'https://en.wikipedia.org/wiki/Shetland_pony'; 
+    var img = document.getElementById('aImage'); 
+    
+    if(img && img.style){
+        img.style.width = '350px';
+        img.style.height ='auto';
+        img.style.position ='absolute';
+    }
+    document.body.style.background = 'lightblue';
+    window.open(aShet);
+});
+   
   });
 });
